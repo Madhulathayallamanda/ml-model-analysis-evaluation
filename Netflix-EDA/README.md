@@ -1,46 +1,45 @@
-# Exploratory Data Analysis on Netflix Movies & TV Shows
+# Machine Learning Analysis of Netflix Movies & TV Shows
 
 ## Overview
-This project performs Exploratory Data Analysis (EDA) on the Netflix Movies and TV Shows dataset to understand content distribution, trends over time, and key factors influencing Netflix’s content library.
-
-The focus of this project is data cleaning, visualization, and deriving meaningful insights using Python.
+This project analyzes the Netflix Movies and TV Shows dataset using a combination
+of exploratory data analysis and machine learning–oriented analysis. The focus is
+on data preprocessing, evaluation, and analytical understanding rather than only
+visualization.
 
 ## Dataset
-The dataset includes information such as:
-- Title type (Movie / TV Show)
+The dataset contains information about Netflix content including:
+- Content type (Movie / TV Show)
 - Release year
 - Country
 - Genre
 - Duration
 - Rating
 
-## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## Approach
+- Data loading, inspection, and cleaning
+- Handling missing values and feature preprocessing
+- Exploratory analysis to understand data distributions and trends
+- Applying evaluation-focused analysis to understand data behavior
+- Interpreting results using analytical and evaluation metrics
 
-## Analysis Performed
-- Data loading and inspection
-- Handling missing values
-- Movies vs TV Shows distribution
-- Content growth over years
-- Country-wise content analysis
-- Genre analysis
-- Duration analysis
-- Visual exploration using charts and plots
+## Analysis Highlights
+- Studied content growth trends over time
+- Compared Movies vs TV Shows distribution
+- Analyzed country-wise and genre-wise patterns
+- Evaluated how preprocessing impacts analytical outcomes
 
-## Key Insights
-- Netflix content has increased significantly after 2015
-- Movies dominate the platform compared to TV Shows
-- The United States contributes the highest number of titles
-- Certain genres appear more frequently across regions
-- Content duration varies notably between movies and TV shows
+## Learnings
+- Importance of preprocessing before downstream analysis
+- How exploratory analysis supports machine learning workflows
+- Understanding dataset limitations and biases
+- Evaluating insights beyond surface-level visualizations
 
-## Conclusion
-This analysis demonstrates how exploratory data analysis can be used to understand content trends and support data-driven decisions in the entertainment industry.
+## Limitations
+- Dataset-specific conclusions
+- Uses classical analysis and ML techniques
+- Does not include deep learning models
 
-## License
-This project is for educational purposes only.
+## Future Work
+- Extend analysis using predictive or classification models
+- Add model explainability techniques
+- Apply similar analytical methods to NLP-based datasets
