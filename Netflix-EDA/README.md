@@ -19,17 +19,21 @@ The dataset contains information about Netflix content including:
 - Data loading, inspection, and cleaning
 - Handling missing values and feature preprocessing
 - Exploratory analysis to understand data distributions and trends
-- Applying evaluation-focused analysis to understand data behavior
-- Interpreting results using analytical and evaluation metrics
+- Evaluation-focused analysis to understand how data behaves after preprocessing
+- Interpretation of results using analytical and evaluation metrics
 
 ## Analysis Highlights
 - Studied content growth trends over time
 - Compared Movies vs TV Shows distribution
-- Analyzed country-wise and genre-wise patterns
-- Evaluated how preprocessing impacts analytical outcomes
+- Analyzed country-wise and genre-wise content patterns
+- Observed how preprocessing decisions affect analytical outcomes
+
+## Evaluation Insight
+This step helps understand how preprocessing decisions influence analytical
+outcomes, which is important before applying machine learning models.
 
 ## Learnings
-- Importance of preprocessing before downstream analysis
+- Importance of preprocessing before downstream analysis or modeling
 - How exploratory analysis supports machine learning workflows
 - Understanding dataset limitations and biases
 - Evaluating insights beyond surface-level visualizations
